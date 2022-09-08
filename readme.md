@@ -11,3 +11,15 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 ## First setup
 
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+
+## Setup Quest
+After  installing docker in terminal run below command on root of cloned project
+
+```
+  docker-compose up
+```
+it loads the frontend and backend of the project
+
+to check whether this is working  open http://localhost:3000/api/ping on your browser. the backend should be working and able to connect database
+
+after completion of backend its time for make sure frontend is connected to backend point your browser to http://localhost:3001/register and register
